@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Author" content="Kalashin">
+	<meta name="contact" content="KinaneeSamsonJohn@Outlook.com, +2348058637720">
+	<link rel="stylesheet" type="text/css" media="screen" href="style.css">
+	<!-- <title>Javascript Calculator</title> -->
+</head>
+<body>
+
+	<div class="tip-calculator">
+		<div class="bill">
+			<label for="bill">Bill Total</label>
+			<input type="text" name="bill" id="bill" placeholder="0.00">
+		</div>
+		<div class="customers">
+			<span class="label">split</span>
+			<span class="decrease"></span>
+			<span class="value">1</span>
+			<span class="increase"><span>+</span></span>
+		</div>
+		<div class="tip-amount">
+			<label for="tip">Tip percent</label>
+			<span class="tip-percent">55%</span>
+			<input type="range" id="tip" min="10" max="100" step="5">	
+		</div>
+		<div class="figure">
+			<span class="tip-label">Tip Amount</span>
+			<span class="tip-fee">$50</span>
+		</div>
+	</div>
+<script src="app.js"></script>
+</body>
+</html>
